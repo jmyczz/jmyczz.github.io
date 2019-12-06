@@ -6,13 +6,16 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Hexo</title>
+  <title>动态开发网站第三次讲义 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
+  <meta name="description" content="动态网站开发第三次课讲义一、学习目标1、掌握http协议之响应部分2、熟练掌握Response的相关 API （重定向，路径，输出流）3、掌握ServletContext的常用API4、完成文件下载案例二、具体讲解   2.1、掌握http协议之响应部分  请求消息：客户端发送给服务器端的数据 数据格式：1. 请求行 2. 请求头 3. 请求空行 4. 请求体 响应消息：服务器端发送给客户端的数据">
+<meta property="og:type" content="article">
+<meta property="og:title" content="动态开发网站第三次讲义">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;06&#x2F;%E5%8A%A8%E6%80%81%E5%BC%80%E5%8F%91%E7%BD%91%E7%AB%99%E7%AC%AC%E4%B8%89%E6%AC%A1%E8%AE%B2%E4%B9%89&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="动态网站开发第三次课讲义一、学习目标1、掌握http协议之响应部分2、熟练掌握Response的相关 API （重定向，路径，输出流）3、掌握ServletContext的常用API4、完成文件下载案例二、具体讲解   2.1、掌握http协议之响应部分  请求消息：客户端发送给服务器端的数据 数据格式：1. 请求行 2. 请求头 3. 请求空行 4. 请求体 响应消息：服务器端发送给客户端的数据">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-12-06T06:53:30.820Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -149,16 +152,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-动态开发网站第三次讲义" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-动态开发网站第三次讲义" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/12/06/%E5%8A%A8%E6%80%81%E5%BC%80%E5%8F%91%E7%BD%91%E7%AB%99%E7%AC%AC%E4%B8%89%E6%AC%A1%E8%AE%B2%E4%B9%89/">动态开发网站第三次讲义</a>
+    <h1 class="article-title" itemprop="name">
+      动态开发网站第三次讲义
     </h1>
   
 
@@ -282,6 +283,27 @@ hello , response
       
 
       
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
     </div>
     <div class="article-info article-info-index">
       
@@ -289,16 +311,75 @@ hello , response
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/12/06/%E5%8A%A8%E6%80%81%E5%BC%80%E5%8F%91%E7%BD%91%E7%AB%99%E7%AC%AC%E4%B8%89%E6%AC%A1%E8%AE%B2%E4%B9%89/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/12/06/%E5%8A%A8%E6%80%81%E5%BC%80%E5%8F%91%E7%BD%91%E7%AB%99%E7%AC%AC%E4%B8%89%E6%AC%A1%E8%AE%B2%E4%B9%89/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2019/12/06/%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E7%AC%AC%E4%BA%8C%E6%AC%A1%E8%AE%B2%E4%B9%89/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">动态网站开发第二次讲义</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -318,557 +399,14 @@ hello , response
 
 
 
-
   
-    <article id="post-动态网站开发第二次讲义" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/12/06/%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E7%AC%AC%E4%BA%8C%E6%AC%A1%E8%AE%B2%E4%B9%89/">动态网站开发第二次讲义</a>
-    </h1>
   
 
-        
-        <a href="/2019/12/06/%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E7%AC%AC%E4%BA%8C%E6%AC%A1%E8%AE%B2%E4%B9%89/" class="archive-article-date">
-  	<time datetime="2019-12-06T05:46:38.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-06</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>动态网站开发第二次课讲义<br>一、学习目标<br>1、了解tomcat目录结构<br>2、了解java web项目目录结构<br>3、掌握jsp概念<br>4、了解Servlet概念，创建servlet<br>5、掌握Servlet的执行原理和生命周期<br>6、servlet系统结构<br>7、理解HTTP协议及HTTP请求的结构（请求行，头，体）<br>8、熟练掌握使用HttpServeltRequest获取常用的头信息，请求参数，请求参数乱码处理，转发的特点<br>9、熟练掌握登陆案例<br>二、具体讲解<br>2.1、tomcat目录结构详解<br>打开tomcat的解压之后的目录可以看到如下的目录结构：</p>
-<p>1、bin：<br>bin目录主要是用来存放tomcat的命令，主要有两大类，一类是以.sh结尾的（linux命令），另一类是以.bat结尾的（windows命令）。可以把命令配置在环境变量里边<br>startup 用来启动tomcat<br>shutdown 用来关闭tomcat<br>修改catalina可以设置tomcat的内存<br>2、webapps：<br>webapps目录用来存放应用程序，当tomcat启动时会去加载webapps目录下的应用程序。可以以文件夹、war包、jar包的形式发布应用。<br>当然，你也可以把应用程序放置在磁盘的任意位置，在配置文件中映射好就行。<br>3、conf<br>conf目录主要是用来存放tomcat的一些配置文件。<br>server.xml可以设置端口号、设置域名或IP、默认加载的项目、请求编码<br>web.xml可以设置tomcat支持的文件类型<br>context.xml可以用来配置数据源之类的<br>tomcat-users.xml用来配置管理tomcat的用户与权限<br>4、lib:<br>lib目录主要用来存放tomcat运行需要加载的jar包。<br>例如，像连接数据库的jdbc的包我们可以加入到lib目录中来。<br>5、logs：<br>logs目录用来存放tomcat在运行过程中产生的日志文件，非常重要的是在控制台输出的日志。（清空不会对tomcat运行带来影响）<br>在windows环境中，控制台的输出日志在catalina.xxxx-xx-xx.log文件中<br>在linux环境中，控制台的输出日志在catalina.out文件中<br>6、temp：<br>temp目录用户存放tomcat在运行过程中产生的临时文件。（清空不会对tomcat运行带来影响<br>7、work:<br>work目录用来存放tomcat在运行时的编译后文件，例如JSP编译后的文件。<br>清空work目录，然后重启tomcat，可以达到清除缓存的作用。<br>2.2、了解java web项目目录结构</p>
-<p>web.xml配置文件</p>
-<p>项目启动时会加载web.xml配置文件<br>Web.xml文件的作用如下<br>1、指定欢迎页面，例如：</p>
-<p>上面的例子指定了几个欢迎页面，显示时按顺序从第一个找起，如果第一个存在，就显示第一个，后面的不起作用。如果第一个不存在，就找第二个，以此类推。<br>2、配置servlet、filter、<br>我们以后创建的servlet与filter需要在web.xml中配置才会生效，至于怎么配置后边的课程讲<br>2.3、掌握jsp概念<br>1、基本概念<br>JSP是运行在服务器端的程序，负责java web项目中的数据展示，以及前后数据的中转与交互<br>JSP页面中，可以写html、css、js代码、java代码、el表达式、jstl标签</p>
-<p>分别在jsp里边写对应的代码</p>
-<p>由于以后jsp里边不写java代码，就不过多演示了</p>
-<p>注意：如何设置jsp的编码格式<br>点击window——–&gt;preferences<br>然后搜索jsp<br>点击JSP Files选择utf-8编码格式</p>
-<p>2、jsp的执行流程<br>翻译阶段<br>   当Web容器接收到JSP请求时，首先会对JSP文件进行翻译，将编写好的JSP文件通过JSP容器转换成可识别的Java源代码。<br>编译阶段<br>    将Java源文件编译成可执行的字节码文件<br>执行阶段<br>   经过翻译和编译两个阶段，生成了可执行的二进制字节码文件，此时进入执行阶段。当执行结束后，得到处理请求的结果，把生成的结果页面返回到浏览器客户端显示。</p>
-<p>2.4、了解Servlet概念,创建servlet<br>Servlet概念以及作用<br>Java Servlet 是运行在 Web 服务器或应用服务器上的程序，它是作为来自 Web 浏览器的请求和 HTTP 服务器上的数据库或应用程序之间的中间层。<br>   用户在jsp页面上输入数据，可以提交给servlet做处理，java代码读到的数据，可以通过servlet交给jsp页面去展示。这在项目中就充当了，控制与中转的功能。<br>创建servlet</p>
-<ol>
-<li><p>创建JavaEE项目</p>
-</li>
-<li><p>定义一个类，实现Servlet接口</p>
-</li>
-<li><p>实现接口中的抽象方法</p>
-</li>
-<li><p>配置Servlet<br>在web.xml中配置：</p>
-<!--配置Servlet -->
-<servlet>
-<servlet-name>ServletDemo1</servlet-name>
-<servlet-class>com.dzqc.web.servlet.ServletDemo1</servlet-class>
-</servlet>
-<servlet-mapping>
-<servlet-name>ServletDemo1</servlet-name>
-<url-pattern>/demo1</url-pattern>
-</servlet-mapping></li>
-<li><p>5、servlet执行原理</p>
-</li>
-<li><p>当服务器接受到客户端浏览器的请求后，会解析请求URL路径，获取访问的Servlet的资源路径</p>
-</li>
-<li><p>查找web.xml文件，是否有对应的<url-pattern>标签体内容。</p>
-</li>
-<li><p>如果有，则在找到对应的<servlet-class>全类名</p>
-</li>
-<li><p>tomcat会将字节码文件加载进内存，并且创建其对象</p>
-</li>
-<li><p>调用其方法</p>
-</li>
-<li><p>6、servlet生命周期</p>
-</li>
-<li><p>被创建：执行init方法，只执行一次</p>
-</li>
-<li><p>提供服务：执行service方法，执行多次，servelt核心方法</p>
-</li>
-<li><p>被销毁：执行destroy方法，只执行一次<br>演示案例如下</p>
-</li>
-</ol>
-<p>2.7、servlet体系结构<br>Servlet有一个子类为GenericServlet，GenericServlet又有一个子类为HttpServlet，在创建servlet时，可以实现Servlet接口，也可以继承GenericServlet类。但在项目中创建Servlet的方式为，继承HttpServlet类。<br>创建的方式如下： new—-》servlet</p>
-<p>2.7、理解HTTP协议及HTTP请求的结构（请求行，头，体）<br>我们已经掌握了如何创建Servlet,但Servlet的真正作用为处理用于的请求，以及对用户的请求做响应，那么我们就要知道会发送哪几种请求，要想理解请求，就要先知道Http协议与Http请求结构<br>HTTP协议概念<br>Hyper Text Transfer Protocol 超文本传输协议，定义了，客户端和服务器端通信时，发送数据的格式<br>特点：</p>
-<ol>
-<li>基于TCP/IP的高级协议</li>
-<li>默认端口号:80</li>
-<li>基于请求/响应模型的:一次请求对应一次响应</li>
-<li>无状态的：每次请求之间相互独立，不能交互数据<br>历史版本：</li>
-<li>0：每一次请求响应都会建立新的连接</li>
-<li>1：复用连接<br>HTTP协议的请求行，请求头，请求体</li>
-<li>请求行<br>请求行包含的内容如下：<pre><code>请求方式   请求url      请求协议/版本
-  GET     /login.html       HTTP/1.1</code></pre>请求方式：<pre><code>HTTP协议有7中请求方式，常用的有2种
-  GET：
-    1. 请求参数在请求行中，在url后。
-    2. 请求的url长度有限制的
-    3. 不太安全
-  POST：
-    1. 请求参数在请求体中
-    2. 请求的url长度没有限制的
-    3. 相对安全</code></pre>2、Http协议请求头：<br>请求头的主要作用为：客户端浏览器告诉服务器一些信息<br>1、浏览器告诉服务器，我访问你使用的浏览器版本信息<br>2、告诉服务器，我(当前请求)从哪里来？<br>3、Http协议请求体：<br>封装POST请求消息的请求参数的，换句话说请求体里放的是要提交给服务器的内容，例如账户名、密码。<br>总结一下：<br>通过以上的学习，就知道我们发送请求时，第一要确定请求方式，是post请求或get请求。第二要知道我们的所传递的内容是在请求中放的。</li>
-<li>8、熟练掌握使用HttpServeltRequest获取常用的头信息，请求参数，请求参数乱码处理，转发的特点<br>当用户发送请求时，服务器会创建两个对象，一个是HttpServeltRequest类的请求对象，一个HttpServletResponse类的响应对象。<br>1、request对象和response对象的原理<ol>
-<li>request和response对象是由服务器创建的。我们来使用它们</li>
-<li>request对象是来获取请求消息，response对象是来设置响应消息<br>首先学习request对象<br>2、request对象继承体系结构：<br> ServletRequest        –    接口<pre><code>|    继承</code></pre> HttpServletRequest    – 接口<pre><code>|    实现</code></pre> org.apache.catalina.connector.RequestFacade 类(tomcat)<br>3、request功能：<br>1、获取请求消息数据<ol>
-<li>获取请求行数据<br>GET  /day14/demo1?name=zhangsan  HTTP/1.1<br>方法：<ol>
-<li>获取请求方式 ：GET<br> String getMethod()  </li>
-<li>获取虚拟目录：/day14<br> String getContextPath()</li>
-<li>获取Servlet路径: /demo1<br> String getServletPath()</li>
-<li>获取get方式请求参数：name=zhangsan<br> String getQueryString()</li>
-<li>获取请求URI：/day14/demo1<br> String getRequestURI():        /day14/demo1<br> StringBuffer getRequestURL()  :<a href="http://localhost/day14/demo1" target="_blank" rel="noopener">http://localhost/day14/demo1</a><br>URL：统一资源定位符 ： <a href="http://localhost/day14/demo1" target="_blank" rel="noopener">http://localhost/day14/demo1</a><br> URI：统一资源标识符 : /day14/demo1                        </li>
-<li>获取协议及版本：HTTP/1.1<br> String getProtocol()</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>获取客户机的IP地址：<pre><code>String getRemoteAddr()</code></pre></li>
-<li>获取请求头数据<pre><code>  方法：
-    String getHeader(String name):通过请求头的名称获取请求头的值
-    Enumeration&lt;String&gt; getHeaderNames():获取所有的请求头名称
-3.获取请求体数据:
-  请求体：只有POST请求方式，才有请求体
-   步骤：
-     1. 获取流对象
-        BufferedReader getReader()：获取字符输入流，只能操作字符数据
-        ServletInputStream getInputStream()：获取字节输入流
-                                         在文件上传知识点后讲解</code></pre></li>
-<li>再从流对象中拿数据<br>2、其它功能（重要）<br>1、获取请求参数通用方式：不论get还是post请求方式都可以使用下列方法来获取请求参数<br> 1.String getParameter(String name):根据参数名称获取参数值<ol start="2">
-<li>String[] getParameterValues(String name):根据参数名称获取参数值的数  组</li>
-<li>Enumeration<String> getParameterNames():获取所有请求的参数名称</li>
-<li>Map&lt;String,String[]&gt; getParameterMap():获取所有参数的map集合<br>中文乱码问题：<br> get方式：tomcat 8 已经将get方式乱码问题解决了<br> post方式：会乱码<br>解决：在获取参数前，设置request的编码request.setCharacterEncoding(“utf-8”);<br>2、请求转发：一种在服务器内部的资源跳转方式<br>1、步骤：</li>
-</ol>
-</li>
-<li>通过request对象获取请求转发器对象：<br>RequestDispatcher getRequestDispatcher(String path)</li>
-<li>使用RequestDispatcher对象来进行转发：<br>forward(ServletRequest request, ServletResponse response)<br>  2、特点：<pre><code>1. 浏览器地址栏路径不发生变化
-2. 只能转发到当前服务器内部资源中。
-3. 转发是一次请求</code></pre>3、共享数据：<pre><code>域对象：一个有作用范围的对象，可以在范围内共享数据
-request域：代表一次请求的范围，一般用于请求转发的多个资源中共享数据
-  方法：
-     1. void setAttribute(String name,Object obj):存储数据
-     2. Object getAttitude(String name):通过键获取值
-     3. void removeAttribute(String name):通过键移除键值对</code></pre></li>
-<li>获取ServletContext：<pre><code>ServletContext getServletContext()</code></pre></li>
-</ol>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/12/06/%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E7%AC%AC%E4%BA%8C%E6%AC%A1%E8%AE%B2%E4%B9%89/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-动态网站开发第一次讲义" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/12/06/%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AE%B2%E4%B9%89/">动态网站开发第一次讲义</a>
-    </h1>
   
 
-        
-        <a href="/2019/12/06/%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AE%B2%E4%B9%89/" class="archive-article-date">
-  	<time datetime="2019-12-06T03:18:39.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-06</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>动态网站开发第一次课讲义<br>一、学习目标<br>1.理解WEB相关概念和WEB服务器概述<br>2.会安装、卸载、启动和关闭tomcat<br>3.掌握为eclipse配置tomcat<br>4.能够创建动态WEB项目<br>5.掌握使用tomcat部署项目</p>
-<p>二、具体讲解<br>2.1、WEB相关概念<br>1、软件架构<br>1)C/S：客户端/服务器端<br>        例如：360安全卫士、QQ等<br>2)B/S：浏览器/服务器端<br>            例如：淘宝网、京东网、微博、bilibili等<br>2. 资源分类<br>1)静态资源：所有用户访问后，得到的结果都是一样的，称为静态资源.静态资源可以直接被浏览器解析如： html,css,JavaScript<br>2)动态资源:每个用户访问相同资源后，得到的结果可能不一样。称为动态资源。动态资源被访问后，需要先转换为静态资源，在返回给浏览器如：servlet/jsp,php,asp….<br>3. 网络通信三要素<br>1)IP：电子设备(计算机)在网络中的唯一标识。<br>2)端口：应用程序在计算机中的唯一标识。 0~65536<br>3)传输协议：规定了数据传输的规则<br>4. 基础协议：<br>1)tcp:安全协议，三次握手、四次挥手。 速度稍慢<br>2)udp：不安全协议。 速度快<br>2.2、WEB服务器<br>1、服务器：安装了服务器软件的计算机<br>2、服务器软件：接收用户的请求，处理请求，做出响应<br>3、web服务器软件：接收用户的请求，处理请求，做出响应。<br>在web服务器软件中，可以部署web项目，让用户通过浏览器来访问这些项目<br>web容器<br>4、常见的java相关的web服务器软件：<br>Tomcat：Apache基金组织，中小型的JavaEE服务器，仅仅支持少量的JavaEE规范<br>servlet/jsp。开源的，免费<br>webLogic：oracle公司，大型的JavaEE服务器，支持所有的JavaEE规范，收费的。<br>webSphere：IBM公司，大型的JavaEE服务器，支持所有的JavaEE规范，收费的。<br>JBOSS：JBOSS公司的，大型的JavaEE服务器，支持所有的JavaEE规范，收费的。<br>2.3、Tomcat服务器下载、安装、启动、关闭</p>
-<ol>
-<li><p>下载：<a href="http://tomcat.apache.org/" target="_blank" rel="noopener">http://tomcat.apache.org/</a> </p>
-</li>
-<li><p>安装：解压压缩包即可。<br>注意：安装目录建议不要有中文和空格</p>
-</li>
-<li><p>卸载：删除目录就行了</p>
-</li>
-<li><p>启动：<br>bin/startup.bat ,双击运行该文件即可</p>
-</li>
-</ol>
-<p>5、访问：浏览器输入：<a href="http://localhost:8080" target="_blank" rel="noopener">http://localhost:8080</a> 回车访问自己<br><a href="http://localhost:8080" target="_blank" rel="noopener">http://localhost:8080</a> 访问别人</p>
-<p>6、tomcat的关闭</p>
-<ol>
-<li>正常关闭：</li>
-</ol>
-<ul>
-<li>bin/shutdown.bat</li>
-<li>ctrl+c</li>
-</ul>
-<ol start="2">
-<li>强制关闭：</li>
-</ol>
-<ul>
-<li>点击启动窗口的×<br>注意8.5启动过程中可能会遇到乱码问题，可以用以下方法解决<br>打开tomcat/conf/目录<br>修改logging.properties<br>找到<br>java.util.logging.ConsoleHandler.encoding = utf-8这行<br>更改为<br>java.util.logging.ConsoleHandler.encoding = GBK</li>
-</ul>
-<p>2.4、掌握为eclipse配置tomcat</p>
-<p>2.5、创建第一个JavaWeb项目并部署<br>1、新建Web程序，然后测试服务器工作状态<br>new -&gt;new project -&gt;web -&gt; dynamic web project</p>
-<p>2、部署javaweb项目<br>右键选择项目，然后run as</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/12/06/%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AE%B2%E4%B9%89/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-Mysql第三次课" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/10/19/Mysql%E7%AC%AC%E4%B8%89%E6%AC%A1%E8%AF%BE/">Mysql第三次课</a>
-    </h1>
   
 
-        
-        <a href="/2019/10/19/Mysql%E7%AC%AC%E4%B8%89%E6%AC%A1%E8%AF%BE/" class="archive-article-date">
-  	<time datetime="2019-10-19T12:39:56.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-19</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>/*<br>  Mysql第三次课<br>     order by 排序<br>         asc升序<br>         desc 降序<br>     group by 把表分组<br>     group by…having..分组并筛选符合<br>                        条件的组<br>     子查询<br>        查询语句里边嵌套查询语句<br>     连接<br>        把多张表连接成一张表,要注意<br>        一般连接有主外键关系的表<br>        连接分类：<br>        普通连接</p>
-<pre><code>内连接
-  inner join .. on...
-  inner join用内连接方式连接
-            两张表
-  on  后边写的是条件
-外连接（左连接与右连接）
-    左连接
-      left join..on...
-      左边的表显示所有数据，
-      右边的表只显示匹配上的
-      数据
-    右连接
-      right join...on...
-      右边的表显示全部数据
-      左边的表只显示匹配上的
-全连接
-    左右边都全部显示   </code></pre><p><em>/<br>CREATE DATABASE schooldb;<br>USE Schooldb;<br>#教师表<br>CREATE TABLE teacher(<br>   tid INT PRIMARY KEY AUTO_INCREMENT,<br>   tnam VARCHAR(20) NOT NULL,<br>   hiredate DATE,#入职日期<br>   sex VARCHAR(5)<br>)<br>#班级信息表<br>CREATE TABLE ClassInfo(<br>   cid INT PRIMARY KEY AUTO_INCREMENT,<br>   cnam VARCHAR(20) NOT NULL,<br>   grid INT, #年级编号<br>   beginyear VARCHAR(20)<br>)<br>#学生信息表<br>CREATE TABLE StudentInfo(<br>   sid INT PRIMARY KEY AUTO_INCREMENT,<br>   snam VARCHAR(20) NOT NULL,<br>   sex VARCHAR(5),<br>   age INT,<br>   birthday DATE,<br>   cid INT, #班级编号<br>   beginyear VARCHAR(20),#入学日期<br>   stel VARCHAR(15),<br>   address VARCHAR(100),<br>   email VARCHAR(50)<br>)<br>#课程表<br>CREATE TABLE course(<br>   coid INT PRIMARY KEY AUTO_INCREMENT,<br>   cnam VARCHAR(50) NOT NULL,#课程名<br>   tid INT    #讲授老师编号<br>)<br>#成绩表<br>CREATE TABLE score(<br>   scid INT PRIMARY KEY AUTO_INCREMENT,<br>   sid INT ,#学生学号<br>   coid INT, #课程编号<br>   score INT,<br>   remark VARCHAR(100) #备注<br>)<br>#年级表<br>CREATE TABLE grade(<br>  gid INT PRIMARY KEY AUTO_INCREMENT,<br>  gnam VARCHAR(50), #年级名<br>  major VARCHAR(100) #专业<br>)<br>#一次性插入多条语句<br>INSERT INTO teacher(tnam,hiredate,sex)<br>VALUES(‘张三’,’2017-09-01’,’男’),<br>(‘李四’,’2018-07-02’,’男’),<br>(‘王五’,’2016-08-16’,’男’);<br>INSERT INTO grade(gnam,major)<br>VALUES(‘18级’,’软信’),(‘19级’,’软信’)<br>,(‘18级’,’移动’),(‘19级’,’移动’);<br>INSERT INTO StudentInfo(snam,sex,age<br>,birthday,cid,beginyear,stel,address<br>,email) VALUES(‘崔一’,’男’,18,’2001-07-05’<br>,1,’2018’,’18867890987’,<br>‘河南省许昌市’,‘159078923@qq.com’),<br>(‘丁二’,’男’,19,’2000-08-05’<br>,2,’2018’,’18967890987’,<br>‘河南省许昌市’,‘156078923@qq.com’),<br>(‘丁三’,’男’,20,’1999-09-05’<br>,3,’2018’,’18877890987’,<br>‘河南省郑州市’,‘157078923@qq.com’),<br>(‘周三’,’女’,17,’2002-06-05’<br>,4,’2019’,’18177890987’,<br>‘河南省洛阳市’,‘157278923@qq.com’);<br>INSERT INTO StudentInfo(snam,sex,age<br>,birthday,cid,beginyear,stel,address<br>,email) VALUES(‘周四’,’女’,18,’2002-06-05’<br>,4,’2019’,’18177800087’,<br>‘河南省洛阳市’,‘157279923@qq.com’)<br>INSERT INTO ClassInfo(cnam,grid,<br>beginyear) VALUES(‘软信1’,1,’2018’)<br>,(‘移动1’,2,’2018’),(‘软信1’,3,’2019’),<br>(‘移动1’,4,’2019’);<br>INSERT INTO course(cnam,tid)<br>VALUES(‘计算机基础’,1),(‘前端基础’,2)<br>,(‘java基础’,3),(‘js基础’,3);<br>INSERT INTO score(sid,coid,score,remark)<br>VALUES(1,1,90,’无’),(1,2,75,’无’),<br>(1,3,59,’无’),(1,4,76,’无’)<br>,(2,1,93,’无’),(2,2,77,’无’),<br>(2,3,66,’无’),(2,4,78,’无’),<br>(3,1,87,’无’),(3,2,55,’无’),<br>(3,3,76,’无’),<br>(4,1,88,’无’),(4,2,66,’无’),<br>(4,3,90,’无’),(4,4,76,’无’);<br>#order by排序<br>#把StudentInfo表按年纪从小到大排序<br>SELECT * FROM StudentInfo ORDER BY<br>    age ASC;<br>#把StudentInfo表按年纪从大到小排序<br>SELECT * FROM StudentInfo ORDER BY<br>    age DESC;<br>#group by分组<br>#把某张表按照某个字段进行分组<br>#查询出每个学生的平均成绩，结果要<br>#显示的字段为，学生学号 平均成绩<br>SELECT sid,AVG(score) ‘平均成绩’<br>FROM score GROUP BY sid;<br>#group by … havig..筛选出来符合条件<br>#的组<br>#查询出全部及格学生的平均成绩<br>SELECT sid,AVG(score) ‘avg’ FROM score<br>GROUP BY sid HAVING MIN(score)&gt;60;<br>#查询出考试门数不够四门的学生学号<br>SELECT sid FROM score GROUP BY sid<br>    HAVING COUNT(</em>)&lt;4;<br>#查询出“计算机基础”的成绩<br>SELECT coid,score FROM score WHERE<br>coid=(<br>SELECT coid FROM course<br>             WHERE cnam=’计算机基础’);<br>#查询出每门课的平均成绩<br>SELECT coid,AVG(score)’平均成绩’ FROM<br>               score GROUP BY coid;<br>#查询出‘周三’学生的平均成绩<br>SELECT AVG(score) ‘平均成绩’ FROM<br>               score WHERE sid=(<br>SELECT sid FROM StudentInfo<br>               WHERE snam=’周三’);<br>#连接<br>#普通连接<br>SELECT * FROM StudentInfo s,score c<br>                      WHERE<br>                      s.sid=c.sid;<br>#查询出每个人的平均成绩，要显示的<br>#字段为，姓名 平均成绩<br>SELECT snam,AVG(score) FROM<br>             StudentInfo s,score c<br>             WHERE<br>             s.sid=c.sid<br>             GROUP BY s.sid;<br>#内连接<br>SELECT * FROM StudentInfo s<br>              INNER JOIN<br>              score c<br>              ON<br>              s.sid=c.sid;<br>SELECT snam,AVG(score) FROM<br>             StudentInfo s<br>             INNER JOIN<br>             score c<br>             ON<br>             s.sid=c.sid<br>             GROUP BY s.sid;</p>
-<p>#左连接<br>SELECT * FROM StudentInfo s<br>              LEFT JOIN<br>              score c<br>              ON<br>              s.sid=c.sid;<br>#查询出有不及格成绩的学生信息，<br>#缺考算不及格<br>SELECT * FROM StudentInfo WHERE sid<br>IN(<br>SELECT sid FROM score<br>          GROUP BY sid<br>          HAVING MIN(score)&lt;60<br>UNION<br>SELECT sid FROM score<br>             GROUP BY sid<br>             HAVING<br>             COUNT(<em>)&lt;<br>             (SELECT COUNT(</em>) FROM<br>               course));</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/10/19/Mysql%E7%AC%AC%E4%B8%89%E6%AC%A1%E8%AF%BE/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-Mysql第二次课" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/10/18/Mysql%E7%AC%AC%E4%BA%8C%E6%AC%A1%E8%AF%BE/">Mysql第二次课</a>
-    </h1>
-  
-
-        
-        <a href="/2019/10/18/Mysql%E7%AC%AC%E4%BA%8C%E6%AC%A1%E8%AF%BE/" class="archive-article-date">
-  	<time datetime="2019-10-18T09:30:38.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-18</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>/*<br>Mysql第二次课<br>   数据库设计的三大范式<br>   第一范式：<br>      每个字段的数据都是不可分割<br>      的最小的数据单元<br>   第二范式<br>      每张表只能描述一件事情<br>      每张表必须有主键<br>   第三范式<br>      非主键字段依赖于主键字段<br>      换句话说，非主键字段与<br>      主键字段要直接相关<br>  注意：设计表时，尽可能遵守规范<br>     但是，有时为了性能，会牺牲<br>     一点规范<br>  Mysql运算符<br>    算术运算符<br>       + - * /<br>    逻辑运算符<br>       and or !<br>    比较运算符<br>       &gt; &lt; &gt;= &lt;= &lt;&gt; !=<br> 聚合函数<br> count() 求行数<br> sum() 求一列的和<br> avg() 去平均值<br> max() 求最大值<br> min() 求最小值<br>Mysql常用关键字<br> in   查询在什么什么选项中的数据<br>      where name in(‘张三’,’李四’)<br>      把name等于张三，等于李四的都<br>      查询出来<br> not in<br>     where name not in(‘张三’,’李四’)<br>     把name不等于张三，不等于李四<br>     的都查询出来<br> distinct 去重<br> limit 查询出表的前几行<br> between…and..在什么什么之间<br> as<br><em>/<br>SELECT * FROM goods;<br>INSERT INTO goods(gnam,gprice)<br>           VALUES(‘吹风机’,89);<br>INSERT INTO goods(gnam,gprice)<br>           VALUES(‘外套’,200);<br>INSERT INTO goods(gnam,gprice)<br>           VALUES(‘外套’,220);<br>INSERT INTO goods(gnam,gprice)<br>           VALUES(‘吹风机’,78);<br>#查询出商品价格大于10的商品<br>SELECT * FROM goods<br>       WHERE gprice&gt;10;<br>#查询商品价格不等于10的商品信息<br>SELECT * FROM goods<br>       WHERE gprice&lt;&gt;10;<br>#查询商品价格大于10并且小于50的<br>#商品信息<br>SELECT * FROM goods WHERE<br>       gprice&gt;10 AND gprice&lt;50;<br>#查询出商品的数量<br>#字段名 as 新字段名 给列名<br>#重命名成新的列名<br>SELECT COUNT(</em>) AS ‘总数量’<br>          FROM goods;<br>#查询商品的总价格<br>SELECT SUM(gprice) ‘总价格’<br>             FROM goods;<br>#查询商品的平均价格<br>SELECT AVG(gprice) ‘平均价格’<br>             FROM goods;<br>#查询商品的最高价格<br>SELECT MAX(gprice) ‘最高价格’<br>             FROM goods;<br>#查询商品的最低价格<br>SELECT MIN(gprice) ‘最低价格’<br>             FROM goods;<br>#查询出商品名称是小熊雨伞，外套的<br>#都查询出来<br>SELECT * FROM goods WHERE gnam<br>          IN(‘小熊雨伞’,’外套’);<br>SELECT * FROM goods WHERE gnam<br>       NOT IN(‘小熊雨伞’,’外套’);<br>#把商品名字去重<br>SELECT DISTINCT gnam FROM goods;<br>#查询goods表的前两行<br>#limit 0,2 从下标是0的<br>#行开始取两行<br>SELECT * FROM goods LIMIT 0,2;<br>#查询出价格处于10到50之间<br>#的商品信息<br>SELECT * FROM goods WHERE<br>       gprice BETWEEN 10 AND 50;</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/10/18/Mysql%E7%AC%AC%E4%BA%8C%E6%AC%A1%E8%AF%BE/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-Mysql第一次课" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/10/18/Mysql%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE/">Mysql第一次课</a>
-    </h1>
-  
-
-        
-        <a href="/2019/10/18/Mysql%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE/" class="archive-article-date">
-  	<time datetime="2019-10-18T05:47:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-18</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>/*<br> Mysql第一次课<br>   0数据库的分类：<br>    关系型数据库<br>      sqlserver mysql orcale<br>    非关系型数据库nosql<br>      redis</p>
-<p>   关系型数据库：<br>   一、什么是数据库<br>   存储数据的仓库，里边是由<br>   一张一张的表组成，数据是在<br>   表里边<br>   二、什么是表<br>   表由行和列组成<br>    行称为记录<br>    列称为字段或属性<br> 三、mysql安装<br>  先安装Mysql服务器<br>    数据库与表都是在服务器<br>    上创建的<br>  再安装客户端<br>    负责连接上Mysql服务器进而对服务器进行<br>    操作比较好用的客户端有两个<br>    navicat sqlyog<br>四、sql语句的学习<br>  创建语句<br>      创建库<br>        create database 库名<br>      创建表<br>        create table 表名(<br>           字段1 数据类型 约束,<br>           字段2 数据类型 约束,<br>           字段3 数据类型<br>        )<br>      数据类型<br>       int<br>       char 字符串类型，固定长度<br>       varchar 字符串类型,可变长度<br>       float<br>       date 日期型<br>  插入语句<br>    insert into 表名(字段1,字段2,字段3)<br>        values(数据1,数据2,数据3);<br>  查询语句<br>    select 字段1,字段2,字段3 from 表名;<br>  删除语句<br>    删除库<br>      drop database 库名;<br>    删除表<br>      drop table 表名;<br>    删除表中所有的数据<br>      delete from 表名;<br>    删除表中部分数据<br>      delete from 表名 where …<br>  修改语句<br>    update 表名 set … where …<br>五、约束<br>   1、主键约束(primary key)，不能重复，非空<br>        主键的作用为，主键可以代表一条记录<br>   2、非空约束(not null)<br>   3、唯一约束(unique)不能重复，可以为null<br>           但null也不能重复<br>   4、外键约束(foreign key)<br>         外键：本张表使用的字段，为另一<br>             张表的主键,例如学生表的主键<br>             为学号。而成绩表也会用上学号<br>             ,那么成绩表的学号，就称为成绩<br>             表的外键<br>   5、默认约束(default)</p>
-<p>*/<br>#创建库<br>CREATE DATABASE onlineMals;<br>#使用创建的库<br>USE onlineMals;<br>#创建表<br>CREATE TABLE goods(<br>    gid INT PRIMARY KEY AUTO_INCREMENT,<br>    gnam VARCHAR(100) NOT NULL UNIQUE,<br>    gprice FLOAT DEFAULT 0,<br>    gweight FLOAT<br>)<br>#向表中插入数据<br>INSERT INTO goods(gnam,gprice,gweight)<br>           VALUES(‘小熊雨伞’,11.5,200)<br>INSERT INTO goods(gnam,gprice,gweight)<br>           VALUES(‘小熊饼干’,10,100);<br>INSERT INTO goods(gnam,gprice,gweight)<br>           VALUES(‘小熊书包’,25,210);<br>INSERT INTO goods(gnam,gprice,gweight)<br>           VALUES(‘小熊布偶’,15,90);<br>#查询<br>SELECT * FROM goods;<br>#删除gid为3的记录<br>DELETE FROM goods WHERE gid=3;<br>#把小熊雨伞的价格改为20<br>UPDATE goods SET gprice=20<br>    WHERE gnam=’小熊雨伞’;</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/10/18/Mysql%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/10/18/hello-world/">Hello World</a>
-    </h1>
-  
-
-        
-        <a href="/2019/10/18/hello-world/" class="archive-article-date">
-  	<time datetime="2019-10-18T03:04:56.303Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-18</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/10/18/hello-world/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
   
 
 
@@ -891,8 +429,8 @@ request域：代表一次请求的范围，一般用于请求转发的多个资�
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
